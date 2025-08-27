@@ -1,0 +1,27 @@
+{
+  "headline": "Мои плейлисты",
+  "menu": [
+    {
+      "icon": "movie",
+      "label": "Seasonvar",
+      "action": "start",
+      "data": {
+        "name": "Seasonvar Portal",
+        "version": "1.0.0",
+        "parameter": "redirect:{PREFIX}seasonvar.club",
+        "welcome": "none"
+      }
+    },
+    {
+      "icon": "apps",
+      "label": "CDN Services",
+      "action": "start",
+      "data": {
+        "name": "CDN Services Portal",
+        "version": "1.0.0",
+        "parameter": "redirect:{PREFIX}cdnservices.link",
+        "welcome": "none"
+      }
+    }
+  ]
+}
