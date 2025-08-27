@@ -1,6 +1,6 @@
 {
   "name": "Playlists",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "headline": "Выберите плейлист",
   "menu": [
     {
@@ -11,7 +11,7 @@
       "data": {
         "name": "Seasonvar",
         "version": "1.0.0",
-        "parameter": "https://seasonvar.club",
+        "parameter": "redirect:{PREFIX}seasonvar.club/msx/start.json",
         "welcome": "none"
       }
     },
@@ -23,7 +23,21 @@
       "data": {
         "name": "CDN Services",
         "version": "1.0.0",
-        "parameter": "https://cdnservices.link",
+        "parameter": "redirect:{PREFIX}cdnservices.link/msx/start.json",
+        "welcome": "none"
+      }
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "icon": "home",
+      "label": "Вернуться в портал",
+      "action": "start",
+      "data": {
+        "name": "My MSX Portal",
+        "version": "1.0.0",
+        "parameter": "menu:https://YOUR_ACCOUNT.github.io/msx/data/menu.json",
         "welcome": "none"
       }
     }
