@@ -11,19 +11,19 @@
       "data": {
         "name": "Seasonvar",
         "version": "1.0.0",
-        "parameter": "redirect:{PREFIX}seasonvar.club",
+        "parameter": "https://seasonvar.club",
         "welcome": "none"
       }
     },
     {
       "id": "cdn",
       "icon": "apps",
-      "label": "Kino.pub",
+      "label": "CDN Services",
       "action": "start",
       "data": {
         "name": "CDN Services",
         "version": "1.0.0",
-        "parameter": "redirect:{PREFIX}cdnservices.link",
+        "parameter": "https://cdnservices.link",
         "welcome": "none"
       }
     }
