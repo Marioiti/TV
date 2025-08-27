@@ -1,0 +1,6 @@
+{
+  "name": "My MSX Portal",
+  "version": "1.0.0",
+  "parameter": "menu:https://marioiti.github.io/Portal.json",
+  "welcome": "none"
+}
