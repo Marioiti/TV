@@ -1,23 +1,27 @@
 {
-  "headline": "Мои плейлисты",
+  "name": "Playlists",
+  "version": "1.0.0",
+  "headline": "Выберите плейлист",
   "menu": [
     {
+      "id": "seasonvar",
       "icon": "movie",
       "label": "Seasonvar",
       "action": "start",
       "data": {
-        "name": "Seasonvar Portal",
+        "name": "Seasonvar",
         "version": "1.0.0",
         "parameter": "redirect:{PREFIX}seasonvar.club",
         "welcome": "none"
       }
     },
     {
+      "id": "cdn",
       "icon": "apps",
-      "label": "CDN Services",
+      "label": "Kino.pub",
       "action": "start",
       "data": {
-        "name": "CDN Services Portal",
+        "name": "CDN Services",
         "version": "1.0.0",
         "parameter": "redirect:{PREFIX}cdnservices.link",
         "welcome": "none"
