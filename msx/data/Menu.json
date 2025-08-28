@@ -1,43 +1,29 @@
 {
   "name": "Playlists",
-  "version": "1.0.1",
-  "headline": "Выберите плейлист",
+  "version": "1.0.3",
+  "headline": "Выберите источник",
   "menu": [
     {
       "id": "seasonvar",
       "icon": "movie",
-      "label": "Seasonvar",
+      "label": "SEASONVAR",
       "action": "start",
       "data": {
         "name": "Seasonvar",
         "version": "1.0.0",
-        "parameter": "redirect:{PREFIX}seasonvar.club/msx/start.json",
+        "parameter": "content:https://seasonvar.club/msx/start.json",
         "welcome": "none"
       }
     },
     {
-      "id": "cdn",
-      "icon": "apps",
-      "label": "CDN Services",
+      "id": "kinopub",
+      "icon": "tv",
+      "label": "KINO.PUB",
       "action": "start",
       "data": {
-        "name": "CDN Services",
+        "name": "KinoPub",
         "version": "1.0.0",
-        "parameter": "redirect:{PREFIX}cdnservices.link/msx/start.json",
-        "welcome": "none"
-      }
-    },
-    {
-      "type": "separator"
-    },
-    {
-      "icon": "home",
-      "label": "Вернуться в портал",
-      "action": "start",
-      "data": {
-        "name": "My MSX Portal",
-        "version": "1.0.0",
-        "parameter": "menu:https://YOUR_ACCOUNT.github.io/msx/data/menu.json",
+        "parameter": "content:https://cdnservices.link/msx/start.json",
         "welcome": "none"
       }
     }
