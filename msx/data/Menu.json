@@ -1,6 +1,6 @@
 {
   "name": "Playlists",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "headline": "Choose a source",
   "menu": [
     {
@@ -11,7 +11,7 @@
       "data": {
         "name": "Seasonvar",
         "version": "1.0.0",
-        "parameter": "content:https://seasonvar.club/msx/start.json",
+        "parameter": "redirect:https://seasonvar.club/msx/start.json",
         "welcome": "none"
       }
     },
@@ -23,7 +23,7 @@
       "data": {
         "name": "KinoPub",
         "version": "1.0.0",
-        "parameter": "content:http://cdnservices.link/msx/start.json",
+        "parameter": "redirect:http://cdnservices.link/msx/start.json",
         "welcome": "none"
       }
     }
