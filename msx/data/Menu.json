@@ -1,7 +1,7 @@
 {
   "name": "Playlists",
-  "version": "1.0.3",
-  "headline": "Выберите источник",
+  "version": "1.0.5",
+  "headline": "Choose a source",
   "menu": [
     {
       "id": "seasonvar",
@@ -23,7 +23,7 @@
       "data": {
         "name": "KinoPub",
         "version": "1.0.0",
-        "parameter": "content:https://cdnservices.link/msx/start.json",
+        "parameter": "content:http://cdnservices.link/msx/start.json",
         "welcome": "none"
       }
     }
